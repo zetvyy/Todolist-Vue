@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1200px;
+}
+
+#app {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  padding: 50px;
+  font-size: 50px;
+}
+
+input {
+  width: 80%;
+  height: 20px;
+  padding: 5px;
+}
+
+ol > li {
+  margin: 10px;
+  font-size: 20px;
+}
+
+#btn__add {
+  width: 10%;
+  height: 35px;
+  border: none;
+  background-color: orangered;
+  color: antiquewhite;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+#btn__delete {
+  width: 10%;
+  height: 30px;
+  border: none;
+  background-color: red;
+  color: antiquewhite;
+  cursor: pointer;
+  border-radius: 5%;
+}
